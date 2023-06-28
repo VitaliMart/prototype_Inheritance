@@ -8,7 +8,7 @@ let cat = {
     say: 'meow',
     greetigs(move) {
         if (move) {
-            console.log(this.move() + " " + this.say + " owner");
+            console.log(this.move() + ", " + this.say + " owner!");
         } else {
             console.log(this.say);
         }
