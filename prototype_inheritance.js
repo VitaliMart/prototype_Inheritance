@@ -2,7 +2,7 @@ let animal = {
     eats: true,
     move() {
         return 'I am walking';
-    }
+    },
 };
 let cat = {
     say: 'meow',
@@ -13,7 +13,7 @@ let cat = {
             console.log(this.say);
         }
     },
-    __proto__: animal
+    __proto__: animal,
 };
 
 cat.greetigs(true);
